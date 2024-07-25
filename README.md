@@ -6,7 +6,7 @@ To support his ongoing creative work, consider a donation via [PayPal](https://w
 
 # About this
 
-**This website is a course project for my HTML & CSS class - Interactive Media 1, a university general elective.**
+**This website is a course project for my front-end web programming class - Interactive Media 1, a university general elective.**
 
 * The original game color-codes dialogue, but I opted for distinct typefaces to differentiate the speakers.
 * The poem scrolls slowly across the screen, taking nearly ten minutes to complete. While manual scrolling is intentionally challenging, users can press Escape to navigate. 
