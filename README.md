@@ -12,3 +12,5 @@ To support his ongoing creative work, consider a donation via [PayPal](https://w
 * The poem scrolls slowly across the screen, taking nearly ten minutes to complete. While manual scrolling is intentionally challenging, users can press Escape to navigate. 
 * The term "Minecraft aesthetic" often implies serene in-game landscapes enhanced by realistic shaders and the default texture pack. For this project, I converted real-world photos into 2D dithered images to capture a similar feel. 
 
+
+As of July 26th 2024, this site is optimized for desktop browsing on Chromnium browsers only.
