@@ -28,8 +28,8 @@ window.onmousemove = function (event) {
     const cursorWidth = cursor.offsetWidth;
     const cursorHeight = cursor.offsetHeight;
 
-    cursor.style.left = mouseX - cursorWidth / 2 + 'px';
-    cursor.style.top = mouseY - cursorHeight / 2 + 'px';
+    cursor.style.left = mouseX - cursorWidth / 2 + "px";
+    cursor.style.top = mouseY - cursorHeight / 2 + "px";
 };
 
 let randomPick = (ar) => {
@@ -39,8 +39,8 @@ let randomPick = (ar) => {
 
 let randomizeWord = () => {
     let str = "";
-    let ar = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890".split('');
-    return [randomPick(ar), randomPick(ar), randomPick(ar), randomPick(ar), randomPick(ar), randomPick(ar)].join('');
+    let ar = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890".split("");
+    return [randomPick(ar), randomPick(ar), randomPick(ar), randomPick(ar), randomPick(ar), randomPick(ar)].join("");
 }
 
 setInterval(() => {
@@ -57,6 +57,21 @@ setInterval(() => {
 let vid = document.getElementById("dead-voxel");
 vid.currentTime = 66;
 
+const audio = document.getElementById("dead-voxel");
+const button = document.getElementById("volume-control-img");
+let isMuted = false;
+
+button.addEventListener('click', () => {
+    if (audio.muted) {
+        audio.muted = false;
+        button.style.opacity = '1';
+    } else {
+        audio.muted = true;
+        button.style.opacity = '0.5';
+    }
+});
+
+
 
 const buffer1 = document.getElementById("buffer-1");
 const originalInterface = document.getElementById("original-interface");
@@ -69,7 +84,7 @@ if (buffer1 && originalInterface) {
 
     buffer1.addEventListener("click", () => {
         console.log("Click event triggered on buffer");
-        originalInterface.scrollIntoView({ behavior: 'smooth' });
+        originalInterface.scrollIntoView({ behavior: "smooth" });
     });
 } else {
     console.log("One or both elements not found.");
@@ -86,9 +101,10 @@ if (buffer2 && theDream) {
 
     buffer2.addEventListener("click", () => {
         console.log("Click event triggered on buffer");
-        theDream.scrollIntoView({ behavior: 'smooth' });
+        theDream.scrollIntoView({ behavior: "smooth" });
     });
 } else {
     console.log("One or both elements not found.");
 }
+
 
