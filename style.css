@@ -2,9 +2,14 @@
   --default-font-family: monospace;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
-  cursor: cell;
+  cursor: none;
 }
 
 
@@ -22,31 +27,31 @@ body {
 
 #cursor {
   background: url(assets/images/cursor.svg);
-  z-index: 1000000;
-  height: 12vh;
-  width: 12vh;
+  z-index: 280;
+  height: 6vh;
+  width: 6vh;
   display: block;
   position: fixed;
   background-blend-mode: difference;
   mix-blend-mode: difference;
   pointer-events: none;
+  transform: scale(1);
 }
 
-
+#cursor.on-interest {
+  transform: scale(3);
+}
 
 div {
   image-rendering: pixelated;
 }
 
-div:hover {
-  image-rendering: pixelated;
-}
 
 .end-poem {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   background: url(assets/images/cloud.png) no-repeat center;
   background-size: cover;
@@ -70,7 +75,7 @@ div:hover {
 
 #author {
   position: relative;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -112,7 +117,7 @@ div:hover {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 864px;
+  height: 100vh;
   background: #ffffff;
   z-index: 5;
 }
@@ -253,7 +258,7 @@ div:hover {
   height: 100vh;
   gap: 5vh;
   position: relative;
-  padding: 5vw 50vh 25vw;
+  padding: 5vh 50vh 5vh;
   background: white;
   z-index: 15;
 }
@@ -323,6 +328,16 @@ div:hover {
   text-align: left;
   z-index: 19;
 }
+
+.jump-buffer {
+  display: inline-block;
+  align-items: stretch;
+  width: 100vw;
+  height: 50vh;
+  background-color: white;
+  z-index: 19;
+}
+
 
 .the-dream {
   display: flex;
@@ -909,7 +924,7 @@ div:hover {
   position: relative;
   width: 82px;
   height: 72px;
-  background: url(assets/images/prey-img.png) no-repeat center;
+  background: url(assets/images/prey.png) no-repeat center;
   background-size: cover;
   z-index: 59;
 }
@@ -1004,8 +1019,8 @@ div:hover {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 100vh;
-  padding: 5vw 5vw 5vw 5vw;
+  height: 90vh;
+  padding: 5vh 5vw;
   background:
     url(assets/images/minecrafttitle.png) 50%;
   background-size: cover;
@@ -1101,6 +1116,11 @@ div:hover {
   }
 }
 
+#and-it-still-works-text:hover {
+  transform: scale(1.5) rotate(-20deg);
+  animation-duration: 0s;
+}
+
 .original-interface-middle {
   display: flex;
   align-items: center;
@@ -1121,6 +1141,7 @@ div:hover {
   position: relative;
   width: 360px;
   z-index: 70;
+
 }
 
 .button-r1 {
@@ -1300,6 +1321,7 @@ div:hover {
   width: 93px;
   height: 264px;
   z-index: 83;
+  transition-duration: 100ms;
 }
 
 #player-hidden-top {
@@ -1412,11 +1434,13 @@ div:hover {
   height: 264px;
   z-index: 83;
   opacity: 0;
-
+  transition-delay: 5s;
+  transition-duration: 100ms;
 }
 
 .player-visible:hover {
   opacity: 1;
+  transition: 100ms;
 
 }
 
@@ -1484,7 +1508,7 @@ div:hover {
   flex-wrap: nowrap;
   position: relative;
   width: 59px;
-  margin: 0 0 0 17px;
+  margin: 0;
   padding: 0 2px 0 2px;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -1513,7 +1537,7 @@ div:hover {
   display: flex;
   align-items: center;
   align-self: center;
-  justify-content: stretch;
+  justify-content: space-between;
   flex-wrap: nowrap;
   position: relative;
   width: 90vw;
@@ -1538,6 +1562,11 @@ div:hover {
   text-align: left;
   white-space: nowrap;
   z-index: 68;
+}
+#space-between {
+  display: block;
+  align-self: stretch;
+  width: 75vw;
 }
 
 #behind-the-screen {
@@ -2385,7 +2414,7 @@ div:hover {
   position: relative;
   width: 22.627px;
   height: 22.627px;
-  background: url(assets/images/exit.png) no-repeat center;
+  background: url(assets/images/exit.svg) no-repeat center;
   background-size: cover;
   z-index: 156;
 }
@@ -3057,7 +3086,7 @@ div:hover {
   z-index: 227;
 }
 
-.go-back {
+#go-back {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3675,7 +3704,7 @@ div:hover {
   min-width: 0;
   height: 180px;
   background: #000000;
-  z-index: 270;
+  z-index: 266;
 }
 
 .just-you {
@@ -3686,12 +3715,11 @@ div:hover {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
   position: relative;
   min-width: 0;
   height: 100vh;
   background: #000000;
-  z-index: 271;
+  z-index: 1000;
 }
 
 .universe-said {
@@ -3706,7 +3734,7 @@ div:hover {
   position: relative;
   padding: 10px 10px 10px 10px;
   background: #000000;
-  z-index: 272;
+  z-index: 1000;
 }
 
 .background {
@@ -3724,7 +3752,7 @@ div:hover {
   background: black;
   transform: translate(0, -50%);
 
-  z-index: 273;
+  z-index: 1000;
   overflow: hidden;
 }
 
@@ -3737,7 +3765,7 @@ div:hover {
   background: url(assets/images/ilynew.gif) no-repeat center;
   background-size: cover;
   opacity: 0.33;
-  z-index: 274;
+  z-index: 1000;
 }
 
 .ily-overlay {
@@ -3751,7 +3779,7 @@ div:hover {
   margin: 5vh;
   background: url(assets/images/ily-overlay.gif) no-repeat center;
   background-size: contain;
-  z-index: 300;
+  z-index: 1000;
   mix-blend-mode: difference;
 }
 
