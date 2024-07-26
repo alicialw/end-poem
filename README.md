@@ -8,7 +8,7 @@ To support his ongoing creative work, consider a donation via [PayPal](https://w
 
 **Music**
 
-This project features the music "Dead Voxel" by C418. We have permission to use the track according to the artist's guidelines, which can be found on his website: [link to C418's website - What am I allowed to do with Daniel's music?]
+This project features the music "Dead Voxel" by C418. We have permission to use the track according to the artist's guidelines, which can be found on [his website](https://c418.org/2017/01/26/what-am-i-allowed-to-do-with-daniels-music/).
 
 In accordance with these guidelines, we have:
 
