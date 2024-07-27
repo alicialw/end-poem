@@ -3748,7 +3748,8 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  position: relative;
+  position: sticky;
+  top: 0;
   min-width: 0;
   height: 100vh;
   background: #000000;
@@ -3765,7 +3766,6 @@ div {
   height: 100vh;
   gap: 10px;
   position: relative;
-  padding: 10px 10px 10px 10px;
   background: #000000;
   z-index: 1000;
 }
@@ -3777,14 +3777,12 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
   position: absolute;
   top: 50%;
   right: 0;
   left: 0;
   background: black;
   transform: translate(0, -50%);
-
   z-index: 1000;
   overflow: hidden;
 }
@@ -3797,6 +3795,7 @@ div {
   height: 100vh;
   background: url(assets/images/ilynew.gif) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   opacity: 0.33;
   z-index: 1000;
 }
@@ -3827,8 +3826,8 @@ div {
   position: relative;
   min-width: 0;
   height: 120vh;
-  background: black;
-  z-index: 5;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.75) 50%, #000 100%);
+  z-index: 1001;
 }
 
 .wake-up-frame {
