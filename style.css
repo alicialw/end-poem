@@ -1146,7 +1146,16 @@ div {
 
 }
 
-.button-r1 {
+.button {
+  z-index: 71;
+  border: 3px solid #000;
+  background: #808080;
+  box-shadow: 6px 6px 0px 0px rgba(255, 255, 255, 0.10) inset, -6px -6px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+
+#button-r1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1157,10 +1166,7 @@ div {
   position: relative;
   min-width: 0;
   height: 60px;
-  background: #7f7f7f;
-  border: 3px solid #000000;
-  z-index: 71;
-  box-shadow: -6px -6px 0 0 rgba(0, 0, 0, 0.25) inset;
+
 }
 
 #but-text {
@@ -1172,19 +1178,10 @@ div {
   position: relative;
   width: 51px;
   height: 34px;
-  color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: center;
-  text-transform: capitalize;
-  white-space: nowrap;
   z-index: 72;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
-.button-r2 {
+#button-r2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1195,10 +1192,6 @@ div {
   position: relative;
   min-width: 0;
   height: 60px;
-  background: #7f7f7f;
-  border: 3px solid #000000;
-  z-index: 73;
-  box-shadow: -6px -6px 0 0 rgba(0, 0, 0, 0.25) inset;
 }
 
 #what-true-structure {
@@ -1210,16 +1203,7 @@ div {
   position: relative;
   width: 293px;
   height: 34px;
-  color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: center;
-  text-transform: capitalize;
-  white-space: nowrap;
   z-index: 74;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .button-r3 {
@@ -1245,10 +1229,6 @@ div {
   gap: 10px;
   position: relative;
   height: 60px;
-  background: #7f7f7f;
-  border: 3px solid #000000;
-  z-index: 76;
-  box-shadow: -6px -6px 0 0 rgba(0, 0, 0, 0.25) inset;
 }
 
 #did {
@@ -1260,16 +1240,7 @@ div {
   position: relative;
   width: 40px;
   height: 34px;
-  color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: center;
-  text-transform: capitalize;
-  white-space: nowrap;
   z-index: 77;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 #button-r3-2 {
@@ -1283,11 +1254,9 @@ div {
   gap: 10px;
   position: relative;
   height: 60px;
-  background: #7f7f7f;
-  border: 3px solid #000000;
-  z-index: 78;
-  box-shadow: -6px -6px 0 0 rgba(0, 0, 0, 0.25) inset;
 }
+
+
 
 #this {
   display: flex;
@@ -1298,7 +1267,20 @@ div {
   position: relative;
   width: 55px;
   height: 34px;
-  color: #ffffff;
+  z-index: 79;
+
+}
+
+
+.button:hover {
+  z-index: 71;
+  border: 3px solid #000;
+  background: lightgrey;
+  box-shadow: 6px 6px 0px 0px rgba(255, 255, 255, 0.10) inset, -6px -6px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.button span {
+  color: white;
   font-family: Pixelify Sans, var(--default-font-family);
   font-size: 28px;
   font-weight: 400;
@@ -1306,8 +1288,16 @@ div {
   text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 79;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.button.clicked {
+  background-color: white;
+}
+
+.button.clicked span {
+  color: black;
+  text-shadow: none;
 }
 
 .player-hidden {
@@ -2336,7 +2326,7 @@ div {
   z-index: 149;
 }
 
-.chat-window {
+#chat-window {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2442,12 +2432,15 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
+  height: 366px;
   min-width: 0;
   padding: 24px 24px 24px 24px;
   background: #ffffff;
   border: 2px solid #000000;
   z-index: 157;
 }
+
+
 
 .message-left {
   display: flex;
@@ -2506,14 +2499,18 @@ div {
   line-height: 20px;
 }
 
+.msg {
+  display: none;
+}
+
 #cage-of-words {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  width: 320px;
-  height: 60px;
+  max-width: 320px;
+  height: auto;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
@@ -3821,7 +3818,7 @@ div {
 }
 
 #volume-control {
-  position: fixed;
+  position: absolute;
   right: 5vw;
   top: 5vw;
   height: 10vh;
@@ -3847,6 +3844,7 @@ div {
   animation-timing-function: ease-in-out;
   animation-fill-mode: none;
   animation-delay: 0s;
+  opacity: 0.5;
   transform: scale (1);
 }
 
