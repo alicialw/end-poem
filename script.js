@@ -54,11 +54,13 @@ setInterval(() => {
     random8.innerText = randomizeWord();
 }, 100);
 
-let vid = document.getElementById("dead-voxel");
-vid.currentTime = 66;
+
 
 const audio = document.getElementById("dead-voxel");
 const button = document.getElementById("volume-control-img");
+
+audio.currentTime = 66;
+
 let isMuted = false;
 
 button.addEventListener('click', () => {
