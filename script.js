@@ -75,12 +75,16 @@ button.addEventListener("click", () => {
     }
 });
 
-window.addEventListener("load", () => {
-    audio.play().then(() => {
-        console.log("Audio played successfully.");
-    }).catch((error) => {
-        console.error("Error playing audio:", error);
-    });
+button.addEventListener("click", function() {
+    if (audio.paused) {
+        audio.play().then(() => {
+            console.log("Audio played successfully.");
+        }).catch((error) => {
+            console.error("Error playing audio:", error);
+        });
+    } else {
+        audio.pause();
+    }
 });
 
 const buffer1 = document.getElementById("buffer-1");
