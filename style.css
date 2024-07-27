@@ -336,10 +336,17 @@ div {
   display: inline-block;
   width: 100vw;
   height: 50vh;
-  background-color: white;
+  
   z-index: 19;
 }
 
+#buffer-1 {
+  background-color: white;
+}
+
+#buffer-2 {
+  background-color: #7F7F7F;
+}
 
 .the-dream {
   display: flex;
