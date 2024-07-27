@@ -180,3 +180,10 @@ const msg = document.querySelectorAll('.msg');
     const chatWindow = document.getElementById('chat-window');
     chatWindow.addEventListener('mouseenter', handleMouseEnter);
 
+    const wakeUpDiv = document.querySelector(".wake-up");
+    const wakeUpScreen = document.querySelector(".mask-screen");
+
+
+    wakeUpDiv.addEventListener("mouseenter", () => {
+        wakeUpScreen.style.animation = "slide 12s cubic-bezier(0.61, 1, 0.88, 1) forwards";
+    });
