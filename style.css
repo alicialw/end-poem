@@ -60,11 +60,10 @@ div {
 
 #title {
   display: flex;
-  flex-shrink: 0;
   position: relative;
   height: 128px;
   color: #000000;
-  font-family: "Jacquarda Bastarda 9", script;;
+  font-family: "Jacquarda Bastarda 9", script;
   font-size: 128px;
   font-weight: 400;
   line-height: 128px;
@@ -100,7 +99,8 @@ div {
 #author-name {
   position: relative;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 48px;
   font-weight: 400;
   line-height: 57.6px;
@@ -139,7 +139,7 @@ div {
   flex-wrap: nowrap;
   gap: 12px;
   position: relative;
-  width: 420;
+  width: 420px;
   margin: 84px 70px 84px 84px;
   padding: 36px;
   z-index: 8;
@@ -170,7 +170,8 @@ div {
   min-width: 0;
   height: 24px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -209,7 +210,8 @@ div {
   min-width: 0;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -305,7 +307,8 @@ div {
   position: relative;
   width: 50vh;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 48px;
   font-weight: 400;
   line-height: 48px;
@@ -331,7 +334,6 @@ div {
 
 .jump-buffer {
   display: inline-block;
-  align-items: stretch;
   width: 100vw;
   height: 50vh;
   background-color: white;
@@ -347,7 +349,6 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   height: auto;
-  gap: -48px;
   position: relative;
   min-width: 0;
   padding: 5vw 5vw 10vw 5vw;
@@ -377,7 +378,8 @@ div {
   width: 1208px;
   height: 80px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 40px;
   font-weight: 400;
   line-height: 40px;
@@ -1563,6 +1565,7 @@ div {
   white-space: nowrap;
   z-index: 68;
 }
+
 #space-between {
   display: block;
   align-self: stretch;
@@ -1596,7 +1599,6 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: -720px;
   position: relative;
   min-width: 0;
   height: 100vh;
@@ -1628,7 +1630,8 @@ div {
   min-width: 0;
   height: 24px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -1756,7 +1759,8 @@ div {
   min-width: 0;
   height: 24px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -1827,7 +1831,8 @@ div {
   position: relative;
   width: auto;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
@@ -1893,7 +1898,8 @@ div {
   width: 502px;
   height: 288px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 48px;
   font-weight: 400;
   line-height: 48px;
@@ -1941,7 +1947,8 @@ div {
   position: relative;
   width: 75vh;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 48px;
   font-weight: 400;
   line-height: 48px;
@@ -2009,7 +2016,8 @@ div {
   position: relative;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2023,7 +2031,8 @@ div {
   position: relative;
 
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2037,7 +2046,8 @@ div {
   position: relative;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2051,7 +2061,8 @@ div {
   position: relative;
   width: auto;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2064,10 +2075,8 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: 3;
-  width: min-content;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2085,7 +2094,8 @@ div {
   position: relative;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2099,7 +2109,8 @@ div {
   position: relative;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2129,7 +2140,8 @@ div {
   width: 151px;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2143,7 +2155,8 @@ div {
   position: relative;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2157,7 +2170,8 @@ div {
   position: relative;
   height: 48px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 48px;
@@ -2200,7 +2214,6 @@ div {
   flex-direction: column;
   align-self: center;
   align-items: center;
-  justify-self: center;
   justify-items: center;
   position: relative;
   width: 100vw;
@@ -2215,7 +2228,6 @@ div {
   width: 100vh;
   padding: 50vh 0;
   align-items: center;
-  justify-self: center;
   justify-items: center;
   align-self: center;
   flex-shrink: 0;
@@ -2246,7 +2258,8 @@ div {
   min-width: 0;
   height: 48px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -2284,7 +2297,8 @@ div {
   width: 128px;
   height: 24px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -2485,7 +2499,8 @@ div {
   border-radius: 8px 8px 0 8px;
   height: 16px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
@@ -2500,7 +2515,8 @@ div {
   width: 320px;
   height: 60px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
@@ -2571,7 +2587,8 @@ div {
   width: 164px;
   height: 324px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
@@ -2628,7 +2645,8 @@ div {
   width: 164px;
   min-height: 0;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
@@ -2671,7 +2689,6 @@ div {
 
 .name {
   align-self: stretch;
-  align-items: center;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
@@ -2708,8 +2725,6 @@ div {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  flex-shrink: 0;
-  flex-basis: auto;
   position: relative;
   width: auto;
   height: 384px;
@@ -2798,7 +2813,6 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: -348px;
   position: relative;
   height: 364px;
   padding: 0 24px 0 24px;
@@ -2827,7 +2841,8 @@ div {
   width: 316px;
   height: 288px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -2871,7 +2886,8 @@ div {
   width: 364px;
   height: 5vw;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
@@ -3125,7 +3141,8 @@ div {
   width: 307px;
   height: 64px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
@@ -3143,7 +3160,8 @@ div {
   width: 608px;
   height: 72px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -3189,7 +3207,8 @@ div {
   width: 653px;
   height: 72px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
 
   font-size: 36px;
   font-weight: 400;
@@ -3238,7 +3257,8 @@ div {
   width: 634px;
   height: 72px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
 
   font-size: 36px;
   font-weight: 400;
@@ -3256,7 +3276,8 @@ div {
   width: 667px;
   height: 72px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
 
   font-size: 36px;
   font-weight: 400;
@@ -3274,7 +3295,8 @@ div {
   width: 664px;
   height: 72px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -3414,7 +3436,8 @@ div {
   position: relative;
   height: 64px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
@@ -3432,7 +3455,8 @@ div {
   width: 496px;
   height: 192px;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -3492,7 +3516,8 @@ div {
   position: relative;
   height: 64px;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
@@ -3512,7 +3537,8 @@ div {
   width: 512px;
   min-height: 0;
   color: #000000;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -3595,7 +3621,8 @@ div {
   position: relative;
   width: 50vh;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -3641,7 +3668,8 @@ div {
   position: relative;
   width: 50vh;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -3688,7 +3716,8 @@ div {
   position: relative;
   width: 50vh;
   color: #ffffff;
-  font-family: "Jacquard 24", script;;
+  font-family: "Jacquard 24", script;
+  ;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -3802,8 +3831,9 @@ div {
   background-color: white;
   padding: 2vh;
   opacity: 1;
-  
+
 }
+
 #volume-control-img {
   position: relative;
   width: 100%;
