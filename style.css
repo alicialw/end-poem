@@ -3791,10 +3791,6 @@ div {
   z-index: 10000;
 }
 
-#dead-voxel:hover {
-  opacity: 0;
-}
-
 #volume-control {
   position: fixed;
   right: 5vw;
