@@ -19,6 +19,10 @@ In accordance with these guidelines, we have:
 
 I really appreciate C418's generosity in allowing creators to use his work.  For further information on his music and other works, please visit his website.
 
+**Other audios**
+btn121.wav by junggle -- https://freesound.org/s/29301/ -- License: Attribution 4.0
+bip2.wav by xinaesthete -- https://freesound.org/s/26954/ -- License: Attribution 4.0
+
 # About this project
 
 **This website is a response to my front-end web programming class assignment - Interactive Media 1, a university general elective.**
