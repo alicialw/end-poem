@@ -1091,7 +1091,7 @@ div {
   top: 0%;
   left: 0;
   color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1284,7 +1284,7 @@ div {
 
 .button span {
   color: white;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 34px;
@@ -1341,7 +1341,7 @@ div {
   width: 66px;
   height: 34px;
   color: rgba(255, 255, 255, 0.25);
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1375,7 +1375,7 @@ div {
   width: 57px;
   height: 115px;
   color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 96px;
   font-weight: 400;
   line-height: 115px;
@@ -1406,7 +1406,7 @@ div {
   width: 66px;
   height: 34px;
   color: rgba(255, 255, 255, 0.25);
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1462,7 +1462,7 @@ div {
   width: 88px;
   height: 34px;
   color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1519,7 +1519,7 @@ div {
   width: 55px;
   height: 34px;
   color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1550,7 +1550,7 @@ div {
   min-width: 0;
   height: 34px;
   color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1576,7 +1576,7 @@ div {
   min-width: 0;
   height: 34px;
   color: #ffffff;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.6px;
@@ -2394,7 +2394,7 @@ div {
   position: relative;
   height: 14px;
   color: black;
-  font-family: Pixelify Sans, var(--default-font-family);
+  font-family: "Pixelify Sans", monospace;
   font-size: 20px;
   font-weight: 500;
   line-height: 14px;
