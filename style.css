@@ -1,6 +1,7 @@
 html {
   width: 100%;
   height: 100%;
+  font-size: 1.7vmin;
 }
 
 body {
@@ -24,8 +25,8 @@ body {
 #cursor {
   background: url(assets/images/cursor.svg);
   z-index: 280;
-  height: 6vh;
-  width: 6vh;
+  height: 6vmin;
+  width: 6vmin;
   display: block;
   position: fixed;
   background-blend-mode: difference;
@@ -57,12 +58,12 @@ div {
 #title {
   display: flex;
   position: relative;
-  height: 128px;
+  height: 8rem;
   color: #000000;
   font-family: "Jacquarda Bastarda 9", script;
-  font-size: 128px;
+  font-size: 8rem;
   font-weight: 400;
-  line-height: 128px;
+  line-height: 8rem;
   text-align: left;
   white-space: nowrap;
   z-index: 2;
@@ -71,11 +72,11 @@ div {
 #author {
   position: relative;
   font-family: "Jacquard 24", script;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: left;
-  left: 360px;
+  left: 22.5rem;
   text-overflow: initial;
   white-space: nowrap;
   z-index: 3;
@@ -85,10 +86,9 @@ div {
   position: relative;
   color: #000000;
   font-family: "VT323", monospace;
-
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 43.2px;
+  line-height: 2.6875rem;
   text-align: right;
 }
 
@@ -97,9 +97,9 @@ div {
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 57.6px;
+  line-height: 3.5625rem;
   text-align: right;
 }
 
@@ -123,7 +123,7 @@ div {
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 864px;
+  height: 54rem;
   z-index: 6;
 }
 
@@ -133,11 +133,11 @@ div {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 12px;
+  gap: 0.75rem;
   position: relative;
-  width: 420px;
-  margin: 84px 70px 84px 84px;
-  padding: 36px;
+  width: 26.25rem;
+  margin: 5.25rem 4.375rem 5.25rem 5.25rem;
+  padding: 2.25rem;
   z-index: 8;
 }
 
@@ -147,12 +147,12 @@ div {
   flex-basis: auto;
   position: relative;
   min-width: 0;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 9;
@@ -164,13 +164,13 @@ div {
   flex-basis: auto;
   position: relative;
   min-width: 0;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: right;
   white-space: nowrap;
   z-index: 10;
@@ -183,14 +183,14 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 416px;
+  width: 26rem;
   min-width: 0;
-  height: 72px;
+  height: 4.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 11;
 }
@@ -202,15 +202,15 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 416px;
+  width: 26rem;
   min-width: 0;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: right;
   z-index: 12;
 }
@@ -222,22 +222,22 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 416px;
+  width: 26rem;
   min-width: 0;
-  height: 72px;
+  height: 4.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 13;
 }
 
 .retroscreen {
   position: absolute;
-  width: 655.543px;
-  height: 864px;
+  width: 40.9375rem;
+  height: 54rem;
   top: 50%;
   left: 50%;
   background: url(assets/images/retroscreen.png) no-repeat center;
@@ -254,7 +254,7 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   height: 100vh;
-  gap: 5vh;
+  gap: 5vmin;
   position: relative;
   padding: 5vh 50vh 5vh;
   background: white;
@@ -268,12 +268,12 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 50vh;
+  width: 50%;
   color: #000000;
   font-family: "Jacquard 24", script;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 16;
 }
@@ -288,9 +288,9 @@ div {
   width: 66vh;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 17;
 }
@@ -305,9 +305,9 @@ div {
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   z-index: 18;
 }
@@ -321,9 +321,9 @@ div {
   position: relative;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 19;
 }
@@ -331,8 +331,7 @@ div {
 .jump-buffer {
   display: inline-block;
   width: 100vw;
-  height: 50vh;
-  
+  height: 150vh;
   z-index: 19;
 }
 
@@ -366,7 +365,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   z-index: 21;
 }
@@ -378,14 +377,14 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 1208px;
-  height: 80px;
+  width: 75.5rem;
+  height: 5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 2.5rem;
   text-align: left;
   z-index: 22;
 }
@@ -395,12 +394,12 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 23;
@@ -412,14 +411,14 @@ div {
   align-items: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  top: -48px;
-  gap: 18px;
+  top: -3rem;
+  gap: 1.125rem;
   position: relative;
-  width: 960px;
-  min-width: 640px;
-  height: 756px;
+  width: 60rem;
+  min-width: 40rem;
+  height: 47.25rem;
   z-index: 24;
-  max-width: 960px;
+  max-width: 60rem;
 }
 
 .dream-r1 {
@@ -429,10 +428,10 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
-  height: 72px;
+  height: 4.5rem;
   z-index: 25;
 }
 
@@ -443,8 +442,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 216px;
-  height: 108px;
+  width: 13.5rem;
+  height: 6.75rem;
   z-index: 26;
   overflow: hidden;
 }
@@ -455,7 +454,7 @@ div {
   flex-basis: 0;
   position: relative;
   min-width: 0;
-  height: 144px;
+  height: 9rem;
   background: url(assets/images/sunlight3.png) no-repeat center;
   background-size: cover;
   z-index: 27;
@@ -470,13 +469,13 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 294px;
+  width: 18.375rem;
   min-height: 0;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 28;
 }
@@ -489,8 +488,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 102px;
-  height: 144px;
+  width: 6.375rem;
+  height: 9rem;
   z-index: 29;
   overflow: hidden;
 }
@@ -517,13 +516,13 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 294px;
+  width: 18.375rem;
   min-height: 0;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 31;
 }
@@ -534,7 +533,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
   z-index: 32;
@@ -546,8 +545,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
   z-index: 33;
   overflow: hidden;
 }
@@ -574,12 +573,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 289px;
+  width: 18.0625rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 35;
 }
@@ -591,8 +590,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 256px;
-  height: 48px;
+  width: 16rem;
+  height: 3rem;
   z-index: 36;
   overflow: hidden;
 }
@@ -619,12 +618,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 289px;
+  width: 18.0625rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 38;
 }
@@ -635,7 +634,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
   z-index: 39;
@@ -650,12 +649,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 318px;
+  width: 19.875rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 40;
 }
@@ -669,12 +668,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 318px;
+  width: 19.875rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 41;
 }
@@ -686,8 +685,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 288px;
-  height: 72px;
+  width: 18rem;
+  height: 4.5rem;
   z-index: 42;
   overflow: hidden;
 }
@@ -711,7 +710,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
   z-index: 44;
@@ -724,8 +723,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 278px;
-  height: 72px;
+  width: 17.375rem;
+  height: 4.5rem;
   z-index: 45;
   overflow: hidden;
 }
@@ -752,12 +751,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 278px;
+  width: 17.375rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 47;
 }
@@ -769,8 +768,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
   z-index: 48;
   overflow: hidden;
 }
@@ -797,12 +796,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 278px;
+  width: 17.375rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 50;
 }
@@ -813,7 +812,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
   z-index: 51;
@@ -828,12 +827,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 345px;
+  width: 21.5625rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 52;
 }
@@ -845,8 +844,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
   z-index: 53;
   overflow: hidden;
 }
@@ -873,12 +872,12 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 345px;
+  width: 21.5625rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 55;
 }
@@ -890,8 +889,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 144px;
-  height: 72px;
+  width: 9rem;
+  height: 4.5rem;
   background: url(assets/images/predator.gif) no-repeat center;
   background-size: cover;
   z-index: 56;
@@ -904,10 +903,10 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
-  height: 72px;
+  height: 4.5rem;
   z-index: 57;
 }
 
@@ -918,8 +917,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 82px;
-  height: 72px;
+  width: 5.125rem;
+  height: 4.5rem;
   z-index: 58;
   overflow: hidden;
 }
@@ -927,8 +926,8 @@ div {
 #prey-img {
   flex-shrink: 0;
   position: relative;
-  width: 82px;
-  height: 72px;
+  width: 5.125rem;
+  height: 4.5rem;
   background: url(assets/images/prey.png) no-repeat center;
   background-size: cover;
   z-index: 59;
@@ -943,13 +942,13 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 860px;
+  width: 53.75rem;
   min-height: 0;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 60;
 }
@@ -960,12 +959,12 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 18px;
+  gap: 1.125rem;
   position: relative;
   min-width: 0;
-  height: 72px;
+  height: 4.5rem;
   z-index: 61;
-  max-width: 640px;
+  max-width: 40rem;
 }
 
 #shelter-text {
@@ -977,13 +976,13 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 406px;
+  width: 25.375rem;
   min-height: 0;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 62;
 }
@@ -993,10 +992,10 @@ div {
   align-items: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
-  width: 216px;
-  height: 216px;
+  width: 13.5rem;
+  height: 13.5rem;
   z-index: 63;
   overflow: hidden;
 }
@@ -1053,16 +1052,16 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 1024px;
-  height: 170.058px;
-  margin: 0 0 0 92px;
+  width: 64rem;
+  height: 10.625rem;
+  margin: 0 0 0 5.75rem;
   z-index: 81;
 }
 
 #minecraft-title {
   position: absolute;
-  width: 1024px;
-  height: 100px;
+  width: 64rem;
+  height: 6.25rem;
   top: 0;
   left: 50%;
   background: url(assets/images/minecraft_titledithered.png) no-repeat center;
@@ -1073,9 +1072,9 @@ div {
 
 #and-it-still-works {
   position: absolute;
-  width: 359.483px;
-  height: 160.788px;
-  top: 9.27px;
+  width: 22.4375rem;
+  height: 10rem;
+  top: 0.5625rem;
   left: 50%;
   transform: translate(38.11%, 0);
   z-index: 81;
@@ -1086,15 +1085,15 @@ div {
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 359.483px;
+  width: 22.4375rem;
   height: 100%;
   top: 0%;
   left: 0;
   color: #ffffff;
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: center;
   transform: rotate(-20deg);
   z-index: 82;
@@ -1142,18 +1141,18 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   top: 10vh;
-  gap: 8px;
+  gap: 0.5rem;
   position: relative;
-  width: 360px;
+  width: 22.5rem;
   z-index: 70;
 
 }
 
 .button {
   z-index: 71;
-  border: 3px solid #000;
+  border: 0.1875rem solid #000;
   background: #808080;
-  box-shadow: 6px 6px 0px 0px rgba(255, 255, 255, 0.10) inset, -6px -6px 0px 0px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0.375rem 0.375rem 0rem 0rem rgba(255, 255, 255, 0.10) inset, -0.375rem -0.375rem 0rem 0rem rgba(0, 0, 0, 0.25) inset;
 }
 
 
@@ -1165,10 +1164,10 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   min-width: 0;
-  height: 60px;
+  height: 3.75rem;
 
 }
 
@@ -1179,8 +1178,8 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 51px;
-  height: 34px;
+  width: 3.1875rem;
+  height: 2.125rem;
   z-index: 72;
 }
 
@@ -1191,10 +1190,10 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   min-width: 0;
-  height: 60px;
+  height: 3.75rem;
 }
 
 #what-true-structure {
@@ -1204,8 +1203,8 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 293px;
-  height: 34px;
+  width: 18.3125rem;
+  height: 2.125rem;
   z-index: 74;
 }
 
@@ -1215,7 +1214,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 6px;
+  gap: 0.375rem;
   position: relative;
   min-width: 0;
   z-index: 75;
@@ -1229,9 +1228,9 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
-  height: 60px;
+  height: 3.75rem;
 }
 
 #did {
@@ -1241,8 +1240,8 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 40px;
-  height: 34px;
+  width: 2.5rem;
+  height: 2.125rem;
   z-index: 77;
 }
 
@@ -1254,9 +1253,9 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
-  height: 60px;
+  height: 3.75rem;
 }
 
 
@@ -1268,8 +1267,8 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 55px;
-  height: 34px;
+  width: 3.4375rem;
+  height: 2.125rem;
   z-index: 79;
 
 }
@@ -1277,21 +1276,21 @@ div {
 
 .button:hover {
   z-index: 71;
-  border: 3px solid #000;
+  border: 0.1875rem solid #000;
   background: lightgrey;
-  box-shadow: 6px 6px 0px 0px rgba(255, 255, 255, 0.10) inset, -6px -6px 0px 0px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0.375rem 0.375rem 0rem 0rem rgba(255, 255, 255, 0.10) inset, -0.375rem -0.375rem 0rem 0rem rgba(0, 0, 0, 0.25) inset;
 }
 
 .button span {
   color: white;
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 2.125rem;
   text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  text-shadow: 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.5);
 }
 
 .button.clicked {
@@ -1313,8 +1312,8 @@ div {
   position: absolute;
   right: -25vw;
   top: 10vh;
-  width: 93px;
-  height: 264px;
+  width: 5.8125rem;
+  height: 16.5rem;
   z-index: 83;
   transition-duration: 100ms;
 }
@@ -1325,8 +1324,8 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   position: relative;
-  width: 70px;
-  padding: 0 2px 0 2px;
+  width: 4.375rem;
+  padding: 0 0.125rem 0 0.125rem;
   background: rgba(0, 0, 0, 0.5);
   z-index: 84;
 }
@@ -1338,13 +1337,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 66px;
-  height: 34px;
+  width: 4.125rem;
+  height: 2.125rem;
   color: rgba(255, 255, 255, 0.25);
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: center;
   white-space: nowrap;
   z-index: 85;
@@ -1356,11 +1355,11 @@ div {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
-  width: 120px;
-  height: 196px;
-  padding: 0 10px 0 10px;
+  width: 7.5rem;
+  height: 12.25rem;
+  padding: 0 0.625rem 0 0.625rem;
   background: rgba(0, 0, 0, 0.5);
   z-index: 88;
 }
@@ -1372,13 +1371,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 57px;
-  height: 115px;
+  width: 3.5625rem;
+  height: 7.1875rem;
   color: #ffffff;
   font-family: "Pixelify Sans", monospace;
-  font-size: 96px;
+  font-size: 6rem;
   font-weight: 400;
-  line-height: 115px;
+  line-height: 7.1875rem;
   text-align: center;
   white-space: nowrap;
   z-index: 89;
@@ -1390,8 +1389,8 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   position: relative;
-  width: 70px;
-  padding: 0 2px 0 2px;
+  width: 4.375rem;
+  padding: 0 0.125rem 0 0.125rem;
   background: rgba(0, 0, 0, 0.5);
   z-index: 86;
 }
@@ -1403,13 +1402,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 66px;
-  height: 34px;
+  width: 4.125rem;
+  height: 2.125rem;
   color: rgba(255, 255, 255, 0.25);
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: center;
   white-space: nowrap;
   z-index: 87;
@@ -1425,8 +1424,8 @@ div {
   position: absolute;
   right: -25vw;
   top: 10vh;
-  width: 93px;
-  height: 264px;
+  width: 5.8125rem;
+  height: 16.5rem;
   z-index: 83;
   opacity: 0;
   transition-delay: 5s;
@@ -1446,9 +1445,9 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   position: relative;
-  width: 92px;
-  margin: 0 0 0 0.5px;
-  padding: 0 2px 0 2px;
+  width: 5.75rem;
+  margin: 0 0 0 0rem;
+  padding: 0 0.125rem 0 0.125rem;
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -1459,13 +1458,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 88px;
-  height: 34px;
+  width: 5.5rem;
+  height: 2.125rem;
   color: #ffffff;
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: center;
   white-space: nowrap;
   z-index: 1;
@@ -1477,20 +1476,20 @@ div {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
-  width: 110px;
-  height: 196px;
-  margin: 0 0 0 -8.5px;
-  padding: 0 10px 0 10px;
+  width: 6.875rem;
+  height: 12.25rem;
+  margin: 0 0 0 -0.5rem;
+  padding: 0 0.625rem 0 0.625rem;
   z-index: 4;
 }
 
 #player-visible-img {
   flex-shrink: 0;
   position: relative;
-  width: 90px;
-  height: 180px;
+  width: 5.625rem;
+  height: 11.25rem;
   background: url(assets/images/SteveMinecraft.png) no-repeat center;
   background-size: cover;
   z-index: 5;
@@ -1502,9 +1501,9 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   position: relative;
-  width: 59px;
+  width: 3.6875rem;
   margin: 0;
-  padding: 0 2px 0 2px;
+  padding: 0 0.125rem 0 0.125rem;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
@@ -1516,13 +1515,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 55px;
-  height: 34px;
+  width: 3.4375rem;
+  height: 2.125rem;
   color: #ffffff;
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: center;
   white-space: nowrap;
   z-index: 3;
@@ -1548,12 +1547,12 @@ div {
   flex-basis: auto;
   position: relative;
   min-width: 0;
-  height: 34px;
+  height: 2.125rem;
   color: #ffffff;
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: left;
   white-space: nowrap;
   z-index: 68;
@@ -1574,12 +1573,12 @@ div {
   flex-basis: auto;
   position: relative;
   min-width: 0;
-  height: 34px;
+  height: 2.125rem;
   color: #ffffff;
   font-family: "Pixelify Sans", monospace;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
-  line-height: 33.6px;
+  line-height: 2.0625rem;
   text-align: right;
   white-space: nowrap;
   z-index: 69;
@@ -1607,10 +1606,10 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  width: 720px;
-  height: 720px;
+  width: 45rem;
+  height: 45rem;
   padding: 5vw 5vw 5vw 5vw;
   z-index: 91;
 }
@@ -1621,13 +1620,13 @@ div {
   flex-basis: auto;
   position: relative;
   min-width: 0;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 92;
@@ -1636,7 +1635,7 @@ div {
 .it-worked-r2 {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.5rem;
   align-self: stretch;
 
 }
@@ -1644,12 +1643,12 @@ div {
 #of-the {
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 94;
@@ -1658,12 +1657,12 @@ div {
 #and-created-a {
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 94;
@@ -1674,14 +1673,14 @@ div {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   width: auto;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 95;
 }
@@ -1689,12 +1688,12 @@ div {
 #and-created-a {
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 97;
@@ -1703,12 +1702,12 @@ div {
 #for-random {
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 100;
@@ -1718,12 +1717,12 @@ div {
 #in-the {
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 104;
@@ -1733,12 +1732,12 @@ div {
 #dot {
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 107;
@@ -1750,13 +1749,13 @@ div {
   flex-basis: auto;
   position: relative;
   min-width: 0;
-  height: 24px;
+  height: 1.5rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 108;
@@ -1769,14 +1768,14 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 648px;
+  width: 40.5rem;
   min-width: 0;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 109;
 }
@@ -1808,9 +1807,9 @@ div {
   flex-shrink: 0;
   padding: 10vw 10vw 0 10vw;
   width: 90vw;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  min-height: 648px;
+  min-height: 40.5rem;
   z-index: 112;
   mix-blend-mode: inherit;
 }
@@ -1826,9 +1825,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 4rem;
   text-align: left;
   z-index: 113;
   mix-blend-mode: inherit;
@@ -1845,9 +1844,9 @@ div {
   width: 75vh;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 4rem;
   text-align: left;
   z-index: 114;
   mix-blend-mode: inherit;
@@ -1863,9 +1862,9 @@ div {
   flex-shrink: 0;
   padding: 10vw 10vw 0 10vw;
   width: 90vw;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  min-height: 648px;
+  min-height: 40.5rem;
   z-index: 115;
   mix-blend-mode: inherit;
 }
@@ -1876,7 +1875,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   z-index: 116;
   mix-blend-mode: inherit;
@@ -1888,14 +1887,14 @@ div {
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  width: 502px;
-  height: 288px;
+  width: 31.375rem;
+  height: 18rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   z-index: 117;
   mix-blend-mode: inherit;
@@ -1909,12 +1908,12 @@ div {
   flex-shrink: 0;
   position: relative;
   width: 75vh;
-  height: 192px;
+  height: 12rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   z-index: 118;
   mix-blend-mode: inherit;
@@ -1926,7 +1925,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   z-index: 119;
   mix-blend-mode: inherit;
@@ -1942,9 +1941,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   z-index: 120;
   mix-blend-mode: inherit;
@@ -1954,7 +1953,7 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  height: 180px;
+  height: 11.25rem;
   z-index: 121;
 }
 
@@ -1966,7 +1965,7 @@ div {
   align-self: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
   width: 100vh;
   padding-bottom: 120vh;
@@ -1978,12 +1977,12 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 123;
@@ -2007,13 +2006,13 @@ div {
 #world-truth {
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 126;
@@ -2026,9 +2025,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: center;
   white-space: nowrap;
   z-index: 133;
@@ -2037,13 +2036,13 @@ div {
 #sometimes-not-care {
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 125;
@@ -2056,9 +2055,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 140;
@@ -2070,12 +2069,12 @@ div {
   justify-content: center;
   color: #ffffff;
   font-family: "Jacquard 24", script;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: center;
   white-space: nowrap;
-  padding: 0 12px;
+  padding: 0 0.75rem;
   position: relative;
   width: auto;
   z-index: 134;
@@ -2085,13 +2084,13 @@ div {
 .in-the-19 {
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 136;
@@ -2100,13 +2099,13 @@ div {
 #and-random {
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 129;
@@ -2117,9 +2116,9 @@ div {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
-  width: 151px;
+  width: 9.4375rem;
   z-index: 137;
 }
 
@@ -2130,14 +2129,14 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 151px;
-  height: 48px;
+  width: 9.4375rem;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: center;
   white-space: nowrap;
   z-index: 138;
@@ -2146,13 +2145,13 @@ div {
 #dot-random-2 {
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 139;
@@ -2161,13 +2160,13 @@ div {
 #comma-random {
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 132;
@@ -2177,12 +2176,12 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 48px;
+  height: 3rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 3rem;
   text-align: left;
   white-space: nowrap;
   z-index: 141;
@@ -2222,6 +2221,7 @@ div {
   padding: 50vh 0;
   align-items: center;
   justify-items: center;
+  justify-content: center;
   align-self: center;
   flex-shrink: 0;
   position: relative;
@@ -2230,12 +2230,14 @@ div {
 
 #easy-tell-them {
   display: flex;
+  padding: 0;
+  margin:0;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   align-self: center;
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 2.25rem;
   z-index: 144;
 }
 
@@ -2247,15 +2249,15 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 217.333px;
+  width: 13.5625rem;
   min-width: 0;
-  height: 48px;
+  height: 3rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 145;
 }
@@ -2268,14 +2270,14 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 217.333px;
+  width: 13.5625rem;
   min-width: 0;
-  height: 120px;
+  height: 7.5rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 146;
 }
@@ -2287,14 +2289,14 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 128px;
-  height: 24px;
+  width: 8rem;
+  height: 1.5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   white-space: nowrap;
   z-index: 147;
@@ -2308,14 +2310,14 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 217.333px;
+  width: 13.5625rem;
   min-width: 0;
-  height: 48px;
+  height: 3rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 148;
 }
@@ -2324,7 +2326,7 @@ div {
   align-self: stretch;
   position: relative;
   min-width: 0;
-  height: 180px;
+  height: 11.25rem;
   background: #ffffff;
   z-index: 149;
 }
@@ -2339,9 +2341,9 @@ div {
   flex-shrink: 0;
   position: relative;
   width: 100%;
-  height: 720px;
+  height: 45rem;
   margin: 0;
-  padding: 9px 9px 9px 9px;
+  padding: 0.5625rem 0.5625rem 0.5625rem 0.5625rem;
   background: white;
   z-index: 150;
 }
@@ -2354,9 +2356,9 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 660px;
+  width: 41.25rem;
   background: #ffffff;
-  box-shadow: 12px 12px 0 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0.75rem 0.75rem 0 0 rgba(0, 0, 0, 0.25);
   z-index: 151;
 }
 
@@ -2368,10 +2370,10 @@ div {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 24px;
-  padding: 12px;
+  height: 1.5rem;
+  padding: 0.75rem;
   background: #999999;
-  border: 2px solid #000000;
+  border: 0.125rem solid #000000;
   border-bottom: 0;
   z-index: 152;
 }
@@ -2392,12 +2394,12 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 14px;
+  height: 0.875rem;
   color: black;
   font-family: "Pixelify Sans", monospace;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 0.875rem;
   text-align: left;
   white-space: nowrap;
   z-index: 154;
@@ -2410,17 +2412,17 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 18px;
-  height: 18px;
-  padding: 8px 0px 8px 8px;
+  width: 1.125rem;
+  height: 1.125rem;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
   z-index: 155;
 }
 
 .exit-symbol {
   flex-shrink: 0;
   position: relative;
-  width: 22.627px;
-  height: 22.627px;
+  width: 1.375rem;
+  height: 1.375rem;
   background: url(assets/images/exit.svg) no-repeat center;
   background-size: cover;
   z-index: 156;
@@ -2435,11 +2437,11 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  height: 366px;
+  height: 22.875rem;
   min-width: 0;
-  padding: 24px 24px 24px 24px;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   background: #ffffff;
-  border: 2px solid #000000;
+  border: 0.125rem solid #000000;
   z-index: 157;
 }
 
@@ -2451,19 +2453,19 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   width: auto;
-  padding: 8px 8px 8px 8px;
-  border: 2px solid #000000;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 0.125rem solid #000000;
   z-index: 158;
-  border-radius: 8px 8px 8px 0;
-  height: 16px;
+  border-radius: 0.5rem 0.5rem 0.5rem 0;
+  height: 1rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
   white-space: nowrap;
 }
@@ -2475,7 +2477,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   z-index: 160;
 }
@@ -2486,20 +2488,20 @@ div {
   justify-content: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   width: auto;
-  padding: 8px 8px 8px 8px;
-  border: 2px solid #000000;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 0.125rem solid #000000;
   z-index: 161;
-  border-radius: 8px 8px 0 8px;
-  height: 16px;
+  border-radius: 0.5rem 0.5rem 0 0.5rem;
+  height: 1rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 .msg {
@@ -2512,14 +2514,14 @@ div {
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  max-width: 320px;
+  max-width: 20rem;
   height: auto;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
   z-index: 167;
 }
@@ -2530,7 +2532,7 @@ div {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 180px;
+  height: 11.25rem;
   background: linear-gradient(180deg, #ffffff, #000000);
   z-index: 180;
 }
@@ -2550,8 +2552,8 @@ div {
   align-items: center;
   flex-wrap: nowrap;
   position: absolute;
-  width: 896px;
-  height: 648px;
+  width: 56rem;
+  height: 40.5rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -2565,13 +2567,13 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
   min-width: 0;
   top: 0;
-  height: 648px;
-  border-right: 1px solid black;
-  padding: 36px 36px 0 48px;
+  height: 40.5rem;
+  border-right: 0.0625rem solid black;
+  padding: 2.25rem 2.25rem 0 3rem;
   background: linear-gradient(90deg, #FFF 90%, #999 100%);
   z-index: 183;
 }
@@ -2584,14 +2586,14 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 164px;
-  height: 324px;
+  width: 10.25rem;
+  height: 20.25rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.125rem;
   text-align: left;
   z-index: 184;
 }
@@ -2605,13 +2607,13 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 164px;
+  width: 10.25rem;
   min-height: 0;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.125rem;
   text-align: left;
   z-index: 185;
 }
@@ -2624,11 +2626,11 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
   min-width: 0;
-  height: 648px;
-  padding: 36px 48px 0 36px;
+  height: 40.5rem;
+  padding: 2.25rem 3rem 0 2.25rem;
   background: linear-gradient(270deg, #FFF 90%, #999 100%);
   z-index: 186;
 }
@@ -2642,14 +2644,14 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 164px;
+  width: 10.25rem;
   min-height: 0;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.125rem;
   text-align: left;
   z-index: 187;
 }
@@ -2663,21 +2665,21 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 164px;
+  width: 10.25rem;
   min-height: 0;
   color: #000000;
   font-family: "Jacquard 24", script;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.125rem;
   text-align: left;
   z-index: 188;
 }
 
 .book-bg {
   position: absolute;
-  width: 896px;
-  height: 541px;
+  width: 56rem;
+  height: 33.8125rem;
   top: 60%;
   left: 50%;
   opacity: 25%;
@@ -2727,12 +2729,12 @@ div {
   justify-content: center;
   position: relative;
   width: auto;
-  height: 384px;
+  height: 24rem;
   color: rgba(255, 255, 255, 0.25);
   font-family: "VT323";
-  font-size: 384px;
+  font-size: 24rem;
   font-weight: 400;
-  line-height: 384px;
+  line-height: 24rem;
   text-align: center;
   text-decoration: underline;
   white-space: nowrap;
@@ -2748,11 +2750,11 @@ div {
   position: relative;
   bottom: 5vw;
   width: auto;
-  height: 384px;
+  height: 24rem;
   color: #FFF;
   text-align: center;
   font-family: "Jacquard 24";
-  font-size: 384px;
+  font-size: 24rem;
   font-style: normal;
   font-weight: 400;
   text-align: center;
@@ -2767,11 +2769,11 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   min-width: 0;
   height: 100vh;
-  padding: 10px 10px 10px 10px;
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
   background: #000000;
   z-index: 205;
 }
@@ -2782,8 +2784,8 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  width: 896px;
-  height: 648px;
+  width: 56rem;
+  height: 40.5rem;
   z-index: 206;
 }
 
@@ -2795,11 +2797,11 @@ div {
   flex-wrap: nowrap;
   flex-grow: 1;
   flex-shrink: 0;
-  gap: 12px;
+  gap: 0.75rem;
   position: relative;
   min-width: 0;
-  padding: 36px 36px 64px 48px;
-  border-right: 1px solid black;
+  padding: 2.25rem 2.25rem 4rem 3rem;
+  border-right: 0.0625rem solid black;
   background: linear-gradient(90deg, #FFF 90%, #999 100%);
   ;
   z-index: 207;
@@ -2814,18 +2816,18 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   position: relative;
-  height: 364px;
-  padding: 0 24px 0 24px;
+  height: 22.75rem;
+  padding: 0 1.5rem 0 1.5rem;
   z-index: 208;
 }
 
 #earth {
   flex-shrink: 0;
   position: absolute;
-  width: 360px;
-  height: 360px;
-  top: 2px;
-  left: 2px;
+  width: 22.5rem;
+  height: 22.5rem;
+  top: 0.125rem;
+  left: 0.125rem;
   background: url(assets/images/earth.gif) no-repeat center;
   background-size: cover;
   z-index: 209;
@@ -2838,14 +2840,14 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 316px;
-  height: 288px;
+  width: 19.75rem;
+  height: 18rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 210;
   mix-blend-mode: difference;
@@ -2860,7 +2862,7 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 8px;
+  gap: 0.5rem;
   position: relative;
   min-height: 0;
   z-index: 211;
@@ -2869,8 +2871,8 @@ div {
 #flat-world {
   flex-shrink: 0;
   position: relative;
-  width: 364px;
-  height: 128px;
+  width: 22.75rem;
+  height: 8rem;
   background: url(assets/images/pixelsun.png) no-repeat center;
   background-size: cover;
   z-index: 212;
@@ -2883,14 +2885,14 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 364px;
+  width: 22.75rem;
   height: 5vw;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
-  line-height: 12px;
+  line-height: 0.75rem;
   text-align: center;
   z-index: 213;
 }
@@ -2902,9 +2904,9 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 12px;
+  gap: 0.75rem;
   position: relative;
-  padding: 36px 48px 72px 36px;
+  padding: 2.25rem 3rem 4.5rem 2.25rem;
   background: linear-gradient(270deg, #FFF 90%, #999 100%);
   z-index: 214;
 }
@@ -2912,9 +2914,9 @@ div {
 .mask-group {
   flex-shrink: 0;
   position: absolute;
-  width: 364px;
-  height: 540px;
-  top: 36px;
+  width: 22.75rem;
+  height: 33.75rem;
+  top: 2.25rem;
   left: 50%;
   background: url(assets/images/dreambigmask.gif) no-repeat center;
   background-size: cover;
@@ -2931,7 +2933,7 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 12px;
+  gap: 0.75rem;
   position: relative;
   min-width: 0;
   min-height: 0;
@@ -2945,13 +2947,13 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 113.333px;
-  height: 64px;
+  width: 7.0625rem;
+  height: 4rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1rem;
   text-align: center;
   z-index: 217;
 }
@@ -2979,7 +2981,7 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 12px;
+  gap: 0.75rem;
   position: relative;
   min-width: 0;
   min-height: 0;
@@ -3007,13 +3009,13 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 113.333px;
-  height: 240px;
+  width: 7.0625rem;
+  height: 15rem;
   color: #000000;
   font-family: "Jacquard 24", script;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1rem;
   text-align: center;
   z-index: 221;
 }
@@ -3027,7 +3029,7 @@ div {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 12px;
+  gap: 0.75rem;
   position: relative;
   min-width: 0;
   min-height: 0;
@@ -3041,13 +3043,13 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  width: 113.333px;
-  height: 64px;
+  width: 7.0625rem;
+  height: 4rem;
   color: #000000;
   font-family: "VT323", monospace;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1rem;
   text-align: center;
   z-index: 223;
 }
@@ -3071,7 +3073,7 @@ div {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 360px;
+  height: 22.5rem;
   background: black;
   z-index: 225;
 }
@@ -3110,9 +3112,9 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  height: 720px;
+  height: 45rem;
   padding: 5vw 5vw 5vw 5vw;
   z-index: 228;
 }
@@ -3120,14 +3122,14 @@ div {
 #ellipse-1 {
   flex-shrink: 0;
   position: absolute;
-  width: 796px;
-  height: 281px;
+  width: 49.75rem;
+  height: 17.5625rem;
   top: 50%;
   left: 50%;
   background: url(assets/images/whiteblur-1.png) no-repeat center;
   background-size: cover;
   transform: translate(-50%, -45.35%);
-  filter: blur(64px);
+  filter: blur(4rem);
   z-index: 229;
 }
 
@@ -3138,14 +3140,14 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 307px;
-  height: 64px;
+  width: 19.1875rem;
+  height: 4rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 4rem;
   text-align: center;
   white-space: nowrap;
   z-index: 230;
@@ -3157,14 +3159,14 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 608px;
-  height: 72px;
+  width: 38rem;
+  height: 4.5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 231;
 }
@@ -3177,9 +3179,9 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  height: 720px;
+  height: 45rem;
   padding: 5vw 5vw 5vw 5vw;
   z-index: 232;
 }
@@ -3187,14 +3189,14 @@ div {
 #ellipse-2 {
   flex-shrink: 0;
   position: absolute;
-  width: 862px;
-  height: 163px;
+  width: 53.875rem;
+  height: 10.1875rem;
   top: 50%;
   left: 50%;
   background: url(assets/images/whiteblur-2.png) no-repeat center;
   background-size: cover;
   transform: translate(-50%, -49.96%);
-  filter: blur(24px);
+  filter: blur(1.5rem);
   z-index: 233;
 }
 
@@ -3204,15 +3206,15 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 653px;
-  height: 72px;
+  width: 40.8125rem;
+  height: 4.5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
 
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: center;
   text-overflow: initial;
   z-index: 234;
@@ -3227,9 +3229,9 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  height: 720px;
+  height: 45rem;
   padding: 5vw 5vw 5vw 5vw;
   z-index: 235;
 }
@@ -3237,14 +3239,14 @@ div {
 #ellipse-3 {
   flex-shrink: 0;
   position: absolute;
-  width: 812px;
-  height: 425px;
+  width: 50.75rem;
+  height: 26.5625rem;
   top: 50%;
   left: 50%;
   background: url(assets/images/whiteblur-3.png) no-repeat center;
   background-size: cover;
   transform: translate(-50%, -49.88%);
-  filter: blur(64px);
+  filter: blur(4rem);
   z-index: 236;
 }
 
@@ -3254,15 +3256,15 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 634px;
-  height: 72px;
+  width: 39.625rem;
+  height: 4.5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
 
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: center;
   z-index: 237;
 }
@@ -3273,15 +3275,15 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 667px;
-  height: 72px;
+  width: 41.6875rem;
+  height: 4.5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
 
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: center;
   z-index: 238;
 }
@@ -3292,14 +3294,14 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 664px;
-  height: 72px;
+  width: 41.5rem;
+  height: 4.5rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: center;
   z-index: 239;
 }
@@ -3312,7 +3314,7 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
   height: 100vh;
   padding: 5vw 5vw 5vw 5vw;
@@ -3322,14 +3324,14 @@ div {
 #ellipse-4 {
   flex-shrink: 0;
   position: absolute;
-  width: 796px;
-  height: 281px;
+  width: 49.75rem;
+  height: 17.5625rem;
   top: 50%;
   left: 50%;
   background: url(assets/images/whiteblur-4.png) no-repeat center;
   background-size: cover;
   transform: translate(-50%, -49.97%);
-  filter: blur(64px);
+  filter: blur(4rem);
   z-index: 241;
 }
 
@@ -3339,14 +3341,14 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 519px;
-  height: 108px;
+  width: 32.4375rem;
+  height: 6.75rem;
   color: #000000;
   font-family: "VT323", monospace;
 
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: center;
   z-index: 242;
 }
@@ -3355,7 +3357,7 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  height: 720px;
+  height: 45rem;
   background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
   z-index: 243;
 }
@@ -3393,8 +3395,8 @@ div {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  height: 720px;
-  margin-bottom: -720px;
+  height: 45rem;
+  margin-bottom: -45rem;
   background: linear-gradient(180deg, #000000, rgba(0, 0, 0, 0));
   z-index: 247;
 }
@@ -3424,9 +3426,9 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 392px;
+  gap: 24.5rem;
   position: relative;
-  min-height: 648px;
+  min-height: 40.5rem;
   z-index: 249;
 }
 
@@ -3434,13 +3436,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 64px;
+  height: 4rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 4rem;
   text-align: left;
   white-space: nowrap;
   z-index: 250;
@@ -3452,14 +3454,14 @@ div {
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  width: 496px;
-  height: 192px;
+  width: 31rem;
+  height: 12rem;
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 251;
 }
@@ -3472,9 +3474,9 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  min-height: 648px;
+  min-height: 40.5rem;
   z-index: 252;
 }
 
@@ -3484,13 +3486,13 @@ div {
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  width: 512px;
-  height: 144px;
+  width: 32rem;
+  height: 9rem;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: center;
   z-index: 253;
 }
@@ -3502,10 +3504,10 @@ div {
   align-self: stretch;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: relative;
-  height: 648px;
-  min-height: 648px;
+  height: 40.5rem;
+  min-height: 40.5rem;
   z-index: 254;
 }
 
@@ -3514,13 +3516,13 @@ div {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 64px;
+  height: 4rem;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 4rem;
   text-align: left;
   white-space: nowrap;
   z-index: 255;
@@ -3534,14 +3536,14 @@ div {
   flex-shrink: 0;
   flex-basis: 0;
   position: relative;
-  width: 512px;
+  width: 32rem;
   min-height: 0;
   color: #000000;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 256;
 }
@@ -3563,7 +3565,7 @@ div {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 180px;
+  height: 11.25rem;
   background: #ffffff;
   z-index: 258;
 }
@@ -3605,9 +3607,9 @@ div {
   position: relative;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 144px;
+  font-size: 9rem;
   font-weight: 400;
-  line-height: 144px;
+  line-height: 9rem;
   text-align: left;
   z-index: 261;
   mix-blend-mode: difference;
@@ -3623,9 +3625,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 262;
   mix-blend-mode: difference;
@@ -3652,9 +3654,9 @@ div {
   position: relative;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 4rem;
   text-align: left;
   z-index: 264;
   mix-blend-mode: difference;
@@ -3670,9 +3672,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 265;
   mix-blend-mode: difference;
@@ -3700,9 +3702,9 @@ div {
   width: 75vh;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 268;
   mix-blend-mode: difference;
@@ -3718,9 +3720,9 @@ div {
   color: #ffffff;
   font-family: "Jacquard 24", script;
   ;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
   z-index: 265;
   mix-blend-mode: difference;
@@ -3731,7 +3733,7 @@ div {
   flex-shrink: 0;
   position: relative;
   min-width: 0;
-  height: 180px;
+  height: 11.25rem;
   background: #000000;
   z-index: 266;
 }
@@ -3760,7 +3762,7 @@ div {
   flex-wrap: nowrap;
   flex-shrink: 0;
   height: 100vh;
-  gap: 10px;
+  gap: 0.625rem;
   position: relative;
   background: #000000;
   z-index: 1000;
@@ -3800,7 +3802,7 @@ div {
   align-self: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 36px;
+  gap: 2.25rem;
   position: absolute;
   width: 100%;
   height: 90vh;
@@ -3831,7 +3833,7 @@ div {
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 960px;
+  height: 60rem;
   z-index: 306;
 }
 
@@ -3841,10 +3843,10 @@ div {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  top: 64px;
+  top: 4rem;
   position: relative;
-  width: 420px;
-  margin: 84px 70px 84px 84px;
+  width: 26.25rem;
+  margin: 5.25rem 4.375rem 5.25rem 5.25rem;
   overflow: hidden;
   z-index: 308;
 }
@@ -3857,7 +3859,7 @@ div {
   flex-wrap: nowrap;
   height: 100%;
   width: 100%;
-  padding: 36px;
+  padding: 2.25rem;
   transform: translateY(100%);
 }
 
@@ -3881,9 +3883,9 @@ div {
   height: auto;
   color: #ffffff;
   font-family: "VT323", monospace;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: center;
   white-space: wrap;
   z-index: 309;
@@ -3896,12 +3898,12 @@ div {
   position: relative;
   min-width: 0;
   height: auto;
-  padding: 48px 24px 0;
+  padding: 3rem 1.5rem 0;
   color: #ffffff;
   font-family: "Jacquard 24", script;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 3.75rem;
   text-align: center;
   white-space: nowrap;
   z-index: 310;
@@ -3909,7 +3911,7 @@ div {
 
 #dead-voxel {
   position: absolute;
-  right: 36px;
+  right: 2.25rem;
   top: 5vw;
   opacity: 0;
   z-index: 10000;
@@ -3919,12 +3921,12 @@ div {
   position: absolute;
   right: 5vw;
   top: 5vw;
-  height: 10vh;
-  width: 10vh;
+  height: 10vmin;
+  width: 10vmin;
   z-index: 4;
-  border-radius: 10vh;
+  border-radius: 10vmin;
   background-color: white;
-  padding: 2vh;
+  padding: 2vmin;
   opacity: 1;
 
 }
@@ -3964,5 +3966,54 @@ div {
   transform: rotate (0deg);
   mix-blend-mode: difference;
   animation-duration: 0s;
+}
+
+#notice {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  font-family: "VT323", monospace;
+  font-size: 5rem;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+#notice p {
+  padding: 0 5rem;
+  text-wrap: balance;
+  white-space: wrap;
+  text-align: center;
+}
+
+small {
+  font-size: 50%;
+}
+
+@media (orientation: portrait) {
+    #main, #volume-control, #cursor {
+      display: none;
+    }
+
+    * {
+    cursor: auto;
+    }
+    
+    #notice {
+      display: flex;
+    }
+
+}
+
+@media (hover: none) and (pointer: coarse) {
+      #cursor {
+        display: none;
+      }
+      .jump-buffer {
+        display: none;
+      }
 }
 

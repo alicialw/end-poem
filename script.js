@@ -98,7 +98,7 @@ if (buffer1 && originalInterface) {
 
     buffer1.addEventListener("click", () => {
         console.log("Click event triggered on buffer");
-        originalInterface.scrollIntoView({ behavior: "smooth" });
+        originalInterface.scrollIntoView({ behavior: "auto" });
     });
 } else {
     console.log("One or both elements not found.");
@@ -115,7 +115,7 @@ if (buffer2 && theDream) {
 
     buffer2.addEventListener("click", () => {
         console.log("Click event triggered on buffer");
-        theDream.scrollIntoView({ behavior: "smooth" });
+        theDream.scrollIntoView({ behavior: "auto" });
     });
 } else {
     console.log("One or both elements not found.");
