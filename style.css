@@ -53,7 +53,8 @@ div {
   height: 100vh;
   background: url(assets/images/cloud.png) no-repeat center;
   background-size: cover;
-  padding: 5vw
+  padding: 5vw;
+  z-index: 100;
 }
 
 #title {
@@ -1785,6 +1786,7 @@ div {
 
 .the-universe {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: stretch;
   justify-content: stretch;
@@ -1793,14 +1795,13 @@ div {
   gap: 10vw;
   margin: 0;
   height: auto;
-  /*background: url(assets/images/humancloud.gif) no-repeat center;*/
+  background: url(assets/images/humancloud.gif) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
-  z-index: 1;
-  mix-blend-mode: difference;
+  background-attachment: auto
+  z-index: 2;
 }
 
-.the-universe::after{
+/*.the-universe::after{
   display: block;
   position: fixed;
   top:0;
@@ -1809,10 +1810,10 @@ div {
   width: 100%;
   content: "";
   background: url(assets/images/humancloud.gif) no-repeat center;
-  background-size: auto 100%;
+  background-size: auto 100vh;
   mix-blend-mode: normal;
-  opacity: 99%;
-}
+  z-index: 9;
+}*/
 
 .universe-1 {
   display: flex;
@@ -1828,7 +1829,7 @@ div {
   position: relative;
   min-height: 40.5rem;
   z-index: 112;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #universe-kind {
@@ -1847,7 +1848,7 @@ div {
   line-height: 4rem;
   text-align: left;
   z-index: 113;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #hear-universe {
@@ -1866,7 +1867,7 @@ div {
   line-height: 4rem;
   text-align: left;
   z-index: 114;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 .universe-2 {
@@ -1883,7 +1884,7 @@ div {
   position: relative;
   min-height: 40.5rem;
   z-index: 115;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #sad-long-dream {
@@ -1895,7 +1896,7 @@ div {
   gap: 0.625rem;
   position: relative;
   z-index: 116;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #sad-long-dream-text {
@@ -1914,7 +1915,7 @@ div {
   line-height: 3rem;
   text-align: left;
   z-index: 117;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #sorrow-private-task {
@@ -1933,7 +1934,7 @@ div {
   line-height: 3rem;
   text-align: left;
   z-index: 118;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #building-true-worlds {
@@ -1945,7 +1946,7 @@ div {
   gap: 0.625rem;
   position: relative;
   z-index: 119;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #building-true-worlds-text {
@@ -1963,7 +1964,7 @@ div {
   line-height: 3rem;
   text-align: left;
   z-index: 120;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #empty-trans {
@@ -1987,7 +1988,7 @@ div {
   width: 100vh;
   padding-bottom: 120vh;
   z-index: 122;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #reads-thoughts {
@@ -3106,10 +3107,23 @@ div {
   min-width: 0;
   height: 100%;
   background: url(./assets/images/atoms.gif) no-repeat center;
-  background-size: cover;
+  background-size: auto 100%;
   background-attachment: fixed;
-  z-index: 226;
+  z-index: 1;
 }
+
+/*.atomic-level::after{
+  display: block;
+  position: sticky;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: url(./assets/images/atoms.gif) no-repeat center;
+  background-size: auto 100%;
+  z-index: 9;
+}*/
 
 .atoms {
   align-self: stretch;
@@ -3401,7 +3415,7 @@ div {
   flex-shrink: 0;
   position: relative;
   background: url(assets/images/furtherback.gif) no-repeat center;
-  background-size: cover;
+  background-size: auto 100%;
   background-attachment: fixed;
   mix-blend-mode: screen;
   height: auto;
@@ -3614,7 +3628,7 @@ div {
   width: 100vh;
   gap: 5vh;
   z-index: 260;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #reading-words {
@@ -3661,7 +3675,7 @@ div {
   width: 100vh;
   gap: 5vh;
   z-index: 263;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #you-are-alive {
@@ -3708,7 +3722,7 @@ div {
   width: 100vh;
   gap: 5vh;
   z-index: 266;
-  mix-blend-mode: inherit;
+  mix-blend-mode: difference;
 }
 
 #player-universe-spoken-2 {
