@@ -329,9 +329,9 @@ div {
 }
 
 .jump-buffer {
-  display: inline-block;
+  display: block;
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   z-index: 19;
 }
 
@@ -340,7 +340,9 @@ div {
 }
 
 #buffer-2 {
-  background-color: #7F7F7F;
+  background-color: #7f7f7f;
+  background: url(assets/images/blackgradientfull.png) no-repeat center;
+  background-size: cover;
 }
 
 .the-dream {
