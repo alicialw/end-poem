@@ -4015,9 +4015,6 @@ small {
       #cursor {
         display: none;
       }
-      .jump-buffer {
-        display: none;
-      }
 }
 
 @supports ( -webkit-touch-callout: none) {
