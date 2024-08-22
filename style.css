@@ -1793,11 +1793,25 @@ div {
   gap: 10vw;
   margin: 0;
   height: auto;
-  background: url(assets/images/humancloud.gif) no-repeat center;
+  /*background: url(assets/images/humancloud.gif) no-repeat center;*/
   background-size: cover;
   background-attachment: fixed;
-  z-index: 110;
+  z-index: 1;
   mix-blend-mode: difference;
+}
+
+.the-universe::after{
+  display: block;
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: url(assets/images/humancloud.gif) no-repeat center;
+  background-size: auto 100%;
+  mix-blend-mode: normal;
+  opacity: 99%;
 }
 
 .universe-1 {
