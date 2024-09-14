@@ -3958,6 +3958,7 @@ div {
   background-color: white;
   padding: 2vmin;
   opacity: 1;
+  z-index: 1000;
 
 }
 
